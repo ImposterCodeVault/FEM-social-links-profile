@@ -93,6 +93,9 @@ main {
   border-radius: 8px;
 
   transition: 1000ms;
+
+  font-size: var(--text-size-medium);
+  font-weight: var(--font-weight-600);
 }
 
 .social-media-button:hover {
@@ -114,14 +117,18 @@ main {
 
 .name {
   font-size: var(--text-size-large);
+  font-weight: var(--font-weight-600);
 }
 
 .description {
   font-size: var(--text-size-medium);
+  font-weight: var(--font-weight-400);
 }
 
 .location {
   color: var(--green);
+  font-size: var(--text-size-medium);
+  font-weight: var(--font-weight-600);
 }
 
 .button-group {
